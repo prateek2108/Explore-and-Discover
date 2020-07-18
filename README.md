@@ -1,1 +1,1 @@
-# YelpCamp
+# Explore and Discover
