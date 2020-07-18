@@ -19,12 +19,11 @@ mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 //mongoose.connect("mongodb://localhost:27017/yelp_camp",{useNewUrlParser: true});
-mongoose.connect("mongodb+srv://pranay:yelpcampdatabase@cluster0.fearn.mongodb.net/YELPCAMP-PROJECT?retryWrites=true&w=majority",{useNewUrlParser: true});
 
 app.use(bodyparser.urlencoded({extended : true}));
 //PASSPORT CONFIGURATION
 app.use(require("express-session")({
-	secret:"Hello Pranay Kanjolia",
+	secret:"Hello Prateek Maheshwari",
 	resave:false,
 	saveUninitialized : false
 }));
